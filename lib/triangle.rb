@@ -17,7 +17,8 @@ class Triangle
         :scalene 
     end
     
-    if self.side1 < 0 
+    if self.side1 < 0 || self.side1 == 0 
+      
   end
   
   class TriangleError 
