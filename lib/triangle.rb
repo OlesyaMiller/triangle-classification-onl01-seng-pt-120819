@@ -15,13 +15,13 @@ class Triangle
   def kind 
     if self.side1 == self.side2 && self.side2 == self.side3 
       :equilateral
-    elsif self.side2 == self.side3 || self.side1 == self.side3 || self.side1 == self.side2
-      :isosceles
-    else
-      :scalene 
+      elsif self.side2 == self.side3 || self.side1 == self.side3 || self.side1 == self.side2
+        :isosceles
+      else
+        :scalene 
     end
     
-    if self.side1 < 0 
+    #if self.side1 < 0 
   end
   
   class TriangleError 
